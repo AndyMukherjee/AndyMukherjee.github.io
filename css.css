@@ -16,7 +16,7 @@ ol, ul {
 {
 
      padding: 1em;
-     width: 96%;
+     width: 100%;
      background-color: #999966;
      position: fixed;
 
@@ -49,10 +49,11 @@ a
 .introduction
 {
 	
-	background-image: url('http://i.imgur.com/mVXolgq.jpg');
+	background-image: url('http://i.imgur.com/UEEQfDV.jpg');
 	background-repeat: none;
 	width:53em;
 	height:30em;
+	
 
 	background-size: cover;
 	text-align: center;
@@ -67,6 +68,7 @@ a
 	font-size: 2em;
 	font-family: "lobster";
 	display: inline-block;
+
     
 }
 
