@@ -1,0 +1,155 @@
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {font-family: 'Roboto', sans-serif;
+	
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+/*end of reset*/
+/*start of custom style*/
+.nav 
+{
+
+     padding: 1em;
+     width: 96%;
+     background-color: #999966;
+     position: fixed;
+
+}
+
+
+.nav >.me
+
+{
+	display: inline-block;
+    float:right;
+    margin-left: 2em;
+}
+
+
+
+a:hover
+{
+	cursor: pointer;
+	
+}
+
+a
+
+{
+	color: #006600;
+	text-decoration: none;
+}
+
+.introduction
+{
+	
+	background-image: url('http://i.imgur.com/mVXolgq.jpg');
+	background-repeat: none;
+	width:53em;
+	height:30em;
+
+	background-size: cover;
+	text-align: center;
+	padding: 20em;
+	margin-bottom: 0em;
+	border-bottom: 0em; 
+}
+
+.introduction > .lin 
+
+{
+	font-size: 2em;
+	font-family: "lobster";
+	display: inline-block;
+    
+}
+
+
+.w
+{color: #000000;
+}
+
+.me
+{
+
+	color: #3366ff;
+}
+
+
+h1 {font-size: 4em;
+font-family: "lobster";
+}
+
+
+.nav  {font-size: 1.3em;}
+
+
+.nav { 
+
+	-webkit-animation: first 5s;
+	-webkit-animation-iteration-count: 10;
+	-o-animation-iteration-count: 10;
+	animation-iteration-count: 10;
+
+ }
+
+@-webkit-keyframes first 
+
+{  	from 
+
+	{	background: #999966 ; }
+
+
+to  
+	{   background: #ffff00;}
+
+}
+
+
+
+.projects {
+margin-top: 20em;
+padding-top: 1em;
+margin-left: -20em;
+width:90em;
+
+
+
+}
+
+.links {
+	font-family: 'Shadows Into Light', cursive;
+font-size: 2em;
+
+
+
+ }
+ .links li{
+	display: inline-block;
+	padding-right: 1em;
+
+}
+
+
+@media only screen and (max-width: 1250px)
+{
+	.links {padding: 20em;
+		font-size: 1em;
+	}
+}
+
+@media only screen and (max-width: 1145px)
+{
+	h1 {font-size: 1em;}
+}
+
+
+
+
+
